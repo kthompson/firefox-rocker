@@ -1,0 +1,13 @@
+{
+  "manifest_version": 2,
+  "name": "Rocker",
+  "version": "1.0",
+
+  "description": "Adds Left to Right and Right to Left rocker gestures",
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "js": ["rocker.js"]
+    }
+  ]
+}

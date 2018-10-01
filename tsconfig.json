@@ -1,0 +1,8 @@
+{
+  "compileOnSave": true,
+  "files": ["rocker.ts"],
+  "compilerOptions": {
+    "target": "es6",
+    "sourceMap": true
+  }
+}
